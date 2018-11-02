@@ -5,5 +5,6 @@ export default function AlbumsList(props) {
     <h1>All Albums</h1>
 
     There are { props.albums.length } albums available.
+    check {props.albums}
   </div>)
 }
